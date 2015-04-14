@@ -1,0 +1,8 @@
+
+".container" : {
+  "#camerabuttonContainer": {
+  layout: 'horizontal',
+  width: Ti.UI.FILL,
+  height: '42dp'
+},
+}

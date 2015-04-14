@@ -1,0 +1,20 @@
+<Alloy>
+	<NavigationWindow id="navWindow" platform="ios">
+	<Window id="navWindow" title="New Comment" onOpen="doOpen">
+	<LeftNavButton>
+		<Button id="cancelButton">Cancel</Button>
+	</LeftNavButton>
+	<RightNavButton>
+		<Button id="saveButton">Save</Button>
+	</RightNavButton>
+		<TextArea id="commentContent"/>
+	</Window>
+	</NavigationWindow>
+	
+	
+	<Window id="mainWindow" title="New Comment" onOpen="doOpen" platform="android">
+		<ScrollView>
+			<TextArea id="commentContent"/>
+			</ScrollView>
+	</Window>
+</Alloy>

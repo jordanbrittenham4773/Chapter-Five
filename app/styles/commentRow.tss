@@ -1,0 +1,39 @@
+"#row": {
+	selectedBackgroundColor : 'transparent',
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+	horizontalWrap: false,
+},
+
+
+".container": {
+  backgroundColor : 'white',
+  width : Titanium.UI.FILL,
+  height : Titanium.UI.SIZE,
+  top : 0,
+  layout : 'horizontal',
+  horizontalWrap: false,
+}
+
+".textContainer": {
+	backgroundColor : 'white',
+  	width : Titanium.UI.FILL,
+  	height : Titanium.UI.SIZE,
+  	top : 0,
+  	bottom : '5dp',
+  	layout : 'vertical',
+},
+
+"#avatar": {
+	top : '5dp',
+	left : '5dp',
+	width : '38dp',
+	height : '38dp',
+},
+
+"#comment": {
+	top : '2dp',
+	left : '5dp',
+	textAlign : 'left',
+	
+}

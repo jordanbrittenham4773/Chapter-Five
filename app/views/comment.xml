@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="commentWindow" title="Comments">
+		<RightNavButton>
+			<Button id="newCommentButton">Comment</Button>
+		</RightNavButton>
+		<TableView id="commentTable"></TableView>
+	</Window>
+</Alloy>
+
+<Alloy>
+	<Window id="commentWindow" title="Comments" onOpen="doOpen">
+		<RightNavButton platform="ios">
+			<Button id="newCommentButton">Comment</Button>
+		</RightNavButton>
+		<TableView id="commentTable"></TableView>
+	</Window>
+</Alloy>
